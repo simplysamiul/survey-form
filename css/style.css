@@ -1,0 +1,71 @@
+:root{
+    --primary: rgba(3, 19, 41, 0.7);
+    --secondary: hsla(79, 86%, 50%, 0.7);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:linear-gradient(135deg,var(--primary), var(--secondary)),
+     url(../source/490748-PH5A0U-472.jpg);
+     background-attachment: fixed; 
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: cover center;
+   
+
+}
+header{
+    color:#ffff;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    line-height: 0.1;
+    margin-top:50px;
+}
+header h1{
+    font-weight: 600;
+}
+header p{
+    font-size:25px;
+}
+form{
+    color: #ffff;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.8;
+    margin: 20px 180px 0 180px;
+    padding: 50px 50px 80px 50px;
+    display: grid;
+    place-content: content;
+    border-radius: 20px;
+}
+input{
+    padding:10px;
+    border-radius:10px;
+}
+select{
+    padding:10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+[type="radio"]{
+    margin-right: 10px;
+    cursor: pointer;
+}
+[type="checkbox"]{
+    cursor: pointer;
+}
+textarea{
+    border-radius:10px;
+}
+button{
+    background-color:#37AF65;
+    color: #fff;
+    font-size:22px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding:5px 0 5px 0;
+    font-weight: 700;
+    cursor: pointer;
+}
